@@ -15,6 +15,7 @@ Before running this demo, you should have:
 ```shell
 conda create -n tool_demo python=3.10 && conda activate tool_demo
 pip install metagpt
+conda install typer
 ```
 
 Initialize LLM API configs refering the [guidance](https://docs.deepwisdom.ai/main/zh/guide/get_started/configuration/llm_api_configuration.html)
